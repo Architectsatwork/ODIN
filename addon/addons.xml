@@ -27,22 +27,8 @@
 	 <source></source>
 	 <email></email>
    </extension>
-</addon>
-
-<addon id="repository.ODIN" name="ODIN Repository" version="1.0.0" provider-name="ODIN">
-	<extension point="xbmc.addon.repository" name="ODIN Addon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/Architectsatwork/ODIN/master/addon/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/Architectsatwork/ODIN/master/addon/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/Architectsatwork/ODIN/master/addon/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">ODIN Installer</summary>
-    <description lang="en">ODIN Installer provides an easy way to install fully customised Kodi setups to your device</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon
+   
+   <addon
     id="plugin.video.spankthemonkey"
     name="spank the monkey"
     version="1.0.18"
@@ -70,16 +56,17 @@
 	 <email></email>
    </extension>
 </addon>
+</addon>
 
-<addon id="repository.spankthemonkey" name="spank the monkey Repository" version="1.0.0" provider-name="spankthemonkey">
-	<extension point="xbmc.addon.repository" name="spankthemonkey Addon Repository">
-		<info compressed="false">https://raw.githubusercontent.com/djjohnnyb15/spankthemonkey/master/addon/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/djjohnnyb15/spankthemonkey/master/addon/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/djjohnnyb15/spankthemonkey/master/addon/</datadir>
+<addon id="repository.ODIN" name="ODIN Repository" version="1.0.0" provider-name="ODIN">
+	<extension point="xbmc.addon.repository" name="ODIN Addon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/Architectsatwork/ODIN/master/addon/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/Architectsatwork/ODIN/master/addon/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/Architectsatwork/ODIN/master/addon/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>The Best [COLOR red][B]XXX[/COLOR][/B] addon for [COLOR red][B]FULL LENGTH[/COLOR][/B] movies on XBMC/KODI</summary>
-		<description>The Best [COLOR red][B]XXX[/COLOR][/B] addon for [COLOR red][B]FULL LENGTH[/COLOR][/B] movies on XBMC/KODI, Follow us on twitter [COLOR blue][B]@spankthemonkey[/COLOR][/B] for updates and to request movies. </description>
+		<summary lang="en">ODIN Installer</summary>
+    <description lang="en">ODIN Installer provides an easy way to install fully customised Kodi setups to your device</description>
 		<platform>all</platform>
 	</extension>
 </addon>
