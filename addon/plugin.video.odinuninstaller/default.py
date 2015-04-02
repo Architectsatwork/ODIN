@@ -8,7 +8,7 @@
 #------------------------------------------------------------
 # License: GPL (http://www.gnu.org/licenses/gpl-3.0.html)
 #------------------------------------------------------------
-AddonID='plugin.video.Odniuninstaller'; AddonTitle="ODIN Uninstaller"
+AddonID='plugin.video.odniuninstaller'; AddonTitle="ODIN Uninstaller"
 import os,sys,plugintools,xbmcaddon
 def run(): # Entry point
     plugintools.log("freshstart.run"); params=plugintools.get_params() # Get params
