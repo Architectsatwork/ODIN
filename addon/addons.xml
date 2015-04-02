@@ -30,7 +30,7 @@
 </addon>
 
 <addon
-    id="plugin.video.ODINuninstaller"
+    id="plugin.video.odinuninstaller"
     name="ODIN Uninstaller"
     version="1.0.0"
     provider-name="ODIN!!!">
